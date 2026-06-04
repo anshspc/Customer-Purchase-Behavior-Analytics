@@ -4,6 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.20%2B-FF4B4B.svg)](https://streamlit.io/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0%2B-F7931E.svg)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/anshspc/Customer-Purchase-Behavior-Analytics)
 
 An end-to-end data analytics and machine learning solution focused on understanding customer purchasing patterns, demographics, and engagement trends. The repository contains a complete pipeline from synthetic data simulation and preprocessing to unsupervised machine learning segmentation and a premium interactive Streamlit dashboard.
 
