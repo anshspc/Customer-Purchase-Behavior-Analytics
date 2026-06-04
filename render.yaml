@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: customer-behavior-analytics
+    env: python
+    buildCommand: pip install -r requirements.txt && python3 src/data_generation.py && python3 src/data_processing.py && python3 src/segmentation.py
+    startCommand: streamlit run app.py --server.port 10000 --server.address 0.0.0.0
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
