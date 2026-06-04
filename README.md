@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/anshspc/Customer-Purchase-Behavior-Analytics)
 
+🔗 **Live Portal Link**: [https://customer-purchase-behavior-analytics-1.onrender.com](https://customer-purchase-behavior-analytics-1.onrender.com)
+
 An end-to-end data analytics and machine learning solution focused on understanding customer purchasing patterns, demographics, and engagement trends. The repository contains a complete pipeline from synthetic data simulation and preprocessing to unsupervised machine learning segmentation and a premium interactive Streamlit dashboard.
 
 ---
@@ -112,3 +114,12 @@ To discover organic behavioral patterns, we apply the K-Means clustering algorit
 - `app.py`: Main Streamlit app codebase.
 - `requirements.txt`: Project package dependencies list.
 - `.gitignore`: System and execution files ignore configs.
+
+---
+
+## 👨‍💻 Author & Contact
+
+- **Developer**: Ansh Shukla
+- **Email**: [ianshshuklaoffc@gmail.com](mailto:ianshshuklaoffc@gmail.com)
+- **LinkedIn**: [linkedin.com/in/ansh-shukla-656a211b4](https://www.linkedin.com/in/ansh-shukla-656a211b4/)
+- **Live Demo Link**: [customer-purchase-behavior-analytics-1.onrender.com](https://customer-purchase-behavior-analytics-1.onrender.com)

@@ -123,6 +123,16 @@ selected_locations = st.sidebar.multiselect(
     default=all_locations
 )
 
+# Sidebar Footer / Author Info
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 👨‍💻 Created By")
+st.sidebar.markdown("**Ansh Shukla**")
+st.sidebar.markdown("[🌐 Live Dashboard Link](https://customer-purchase-behavior-analytics-1.onrender.com)")
+st.sidebar.markdown("💼 [LinkedIn](https://www.linkedin.com/in/ansh-shukla-656a211b4/)")
+st.sidebar.markdown("✉️ [Email](mailto:ianshshuklaoffc@gmail.com)")
+st.sidebar.markdown("🐙 [GitHub Code](https://github.com/anshspc/Customer-Purchase-Behavior-Analytics)")
+
+
 # Filter the datasets based on selections
 filtered_tx = tx_df[
     (tx_df['transaction_date'].dt.date >= start_date) & 
