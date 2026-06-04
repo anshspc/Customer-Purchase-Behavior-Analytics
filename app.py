@@ -66,13 +66,13 @@ st.markdown("""
 # Helper function to load data
 @st.cache_data
 def load_data():
-    transactions_path = "data/processed/cleaned_transactions.csv"
-    customers_path = "data/processed/segmented_customers.csv"
+    # Resolve paths relative to the directory containing this script (app.py)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    transactions_path = os.path.join(base_dir, "data/processed/cleaned_transactions.csv")
+    customers_path = os.path.join(base_dir, "data/processed/segmented_customers.csv")
     
     if not os.path.exists(transactions_path) or not os.path.exists(customers_path):
-        # Fallback if files aren't in the root execution context
-        transactions_path = "../" + transactions_path
-        customers_path = "../" + customers_path
+        raise FileNotFoundError(f"Processed datasets not found at:\n- {transactions_path}\n- {customers_path}\nPlease run the build pipeline first.")
         
     tx_df = pd.read_csv(transactions_path)
     cust_df = pd.read_csv(customers_path)
